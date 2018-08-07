@@ -1,0 +1,41 @@
+.m-auto {
+    margin: auto;
+}
+
+.all-sides-0 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.txta-left {
+    text-align: left;
+}
+
+.txta-center {
+    text-align: center;
+}
+
+.btn[disabled] {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.modal {
+    background-color: rgba(0,0,0,0.3);
+
+    .modal-content {
+        background-color: #fff;
+    }
+}
+
+.create-form {
+    width: 270px;
+}
+
+.edit-name-form {
+    .btn {
+        margin-top: 3px;
+    }
+}
